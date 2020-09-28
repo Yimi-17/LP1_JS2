@@ -1,0 +1,26 @@
+{
+  "name": "js2",
+  "version": "0.0.1",
+  "description": "Frontend modo 2 con empaquetador y prepocesadores automáticos",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\"",
+    "dev": "webpack-dev-server --inline --hide-modules --watch --hot --config=webpack.config.js"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "Angel Sullon",
+  "license": "MIT",
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "html-webpack-plugin": "^4.3.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {}
+}
